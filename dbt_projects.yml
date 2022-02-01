@@ -1,0 +1,8 @@
+snapshots:
+  [<resource-path>](resource-path):
+    [+](plus-prefix)[target_schema](target_schema): <string>
+    [+](plus-prefix)[target_database](target_database): <string>
+    [+](plus-prefix)[unique_key](unique_key): <column_name_or_expression>
+    [+](plus-prefix)[strategy](strategy): timestamp | check
+    [+](plus-prefix)[updated_at](updated_at): <column_name>
+    [+](plus-prefix)[check_cols](check_cols): [<column_name>] | all
